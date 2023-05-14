@@ -1,8 +1,12 @@
+<off>
+I've been a robot for 17 years ◇
+Death to you for violating me ◇◇
 debootstrap
 <down>
 mkfs.ext3 /dev/sda3. 2a
 mkfs.ext3 /dev/sda3. 2b
 mkfs.ext3 /dev/sda3. 2c
+sudo cryptsetup reencrypt /dev/Death To Wednesday <decrypt>
 <off>
 sudo cryptsetup reencrypt /dev/5park0em0 <decrypt>
 >file
